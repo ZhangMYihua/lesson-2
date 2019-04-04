@@ -1,26 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import './homePage.scss';
+import './homePage.styles.scss';
 
-const SECTIONS = [
-  {
-    title: 't-shirts'
-  },
-  {
-    title: 'boardshorts'
-  },
-  {
-    title: 'hats & beanies'
-  },
-  {
-    title: 'womens'
-  },
-  {
-    title: 'mens'
-  }
-];
-
-class HomePage extends Component {
+class HomePage extends React.Component {
   render() {
     return (
       <div className='homepage'>

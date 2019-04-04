@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import HomePage from './homePage';
+import HomePage from './homePage.component';
 
 import './App.css';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className='App'>
