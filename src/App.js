@@ -6,11 +6,7 @@ import ShopPage from './pages/shop/shop.component';
 
 import './App.css';
 
-const HatsPage = () => (
-  <div>
-    <h1>Hats Page</h1>
-  </div>
-)
+
 class App extends React.Component {
   render() {
     return (
@@ -19,8 +15,8 @@ class App extends React.Component {
           <Route exact path='/'>
             <HomePage />
           </Route>
-          <Route path='/hats'>
-            <HatsPage />
+          <Route path='/shop'>
+            <ShopPage />
           </Route>
         </Switch>
       </div>
