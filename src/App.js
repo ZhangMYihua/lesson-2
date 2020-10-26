@@ -6,7 +6,7 @@ import ShopPage from './pages/shop/shop.component';
 
 import './App.css';
 import Header from './components/header/header.component';
-
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 class App extends React.Component {
   render() {
@@ -19,6 +19,9 @@ class App extends React.Component {
           </Route>
           <Route path='/shop'>
             <ShopPage />
+          </Route>
+          <Route path='/signin'>
+            <SignInAndSignUpPage />
           </Route>
         </Switch>
       </div>
