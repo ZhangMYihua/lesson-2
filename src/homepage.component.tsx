@@ -2,7 +2,7 @@ import React from 'react';
 
 import './homepage.styles.scss';
 
-const HomePage = () => (
+const HomePage: React.FunctionComponent = () => (
   <div className='homepage'>
     <h1>Welcome to my Homepage</h1>
     <div className='directory-menu'>
